@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {Helmet}  from "react-helmet";
+import { Helmet } from "react-helmet";
 
 import RandomChar from "../randomChar/RandomChar";
 import CharList from "../charList/CharList";
@@ -16,7 +16,6 @@ const MainPage = () => {
     const onCharSelected = (id) => {
         setChar(id);
     }
-
     return (
         <>
             <Helmet>
