@@ -109,6 +109,8 @@ const CharList = (props) => {
 
     // TransitionGroup работать не будет за счет постоянного пересоздания компонента
     // разбор в следующем уроке
+
+
     return (
         <div className="char__list">
             {elements}
